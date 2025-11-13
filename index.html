@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi Web Site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="50" width="60" src="img/Logo.png" alt="logo" />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="#Nosotros">Nosotros</a></li>
+        <li>
+          <a href="">Productos</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Ropa</a></li>
+            <li><a href="">Accesorios</a></li>
+            <li><a href="">Ofertas</a></li>
+          </ul>
+        </li>
+        <li><a href="#Novedades"">Novedades</a></li>
+        <li><a href="#Contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seccion Nosotros -->
+    <section id="Nosotros" class="seccion-conocenos">
+      <div class="div-gral-conocenos">
+        <div class="div-conoc-texto">
+          <h2>Sección Nosotros</h2>
+          <p>
+            En nuestra tienda creemos que cada producto cuenta una historia. Trabajamos con marcas y proveedores que comparten nuestro compromiso con la calidad, el diseño y la sostenibilidad.
+            Nuestra mision es ofrecerte una experiencia de compra confiable, moderna y cercana, donde encuentres justo lo que necesitas y disfrutes cada paso del proceso.
+          </p>
+        </div>
+        <div class="div-conoc-imagen">
+          <img src="img/conocenos.png" alt="imagen conocenos" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Novedades -->
+    <section id="Novedades" class="seccion-negocio">
+      <div class="div-gral-negocio">
+        <div class="div-negoc-texto">
+          <h2>Sección Novedades</h2>
+          <p>
+            Explora las ultimas incorporaciones a nuestro catálogo. Cada semana añadimos nuevos productos inspirados en as tendencias actuales y en las necesidades de nuestros clientes. Desde lanzamientos exclusivos hasta ofertas especiales, aquí descubrirás lo mas reciente para mantener tu estilo siempre actualizado.
+          </p>
+         
+        </div>
+        <div class="div-negoc-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Hin8-nEFIuI?si=UMfBI3kVv4EMNz41"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION CONTACTANOS-->
+    <section id="Contacto" class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Contactenos</h2>
+        <p>Si tiene dudas, no dude en mandarnos un mensaje adjuntando sus datos</p>
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombres Completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+          </div>
+          <div class="campo">
+            <label for="correo">Correo:</label>
+            <input
+              type="text"
+              id="correo"
+              name="correo"
+              placeholder="Ingrese su correo"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="asunto">Asunto:</label>
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              placeholder="Ingrese el asunto de su consulta"
+            />
+          </div>
+          
+          <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              type="text"
+              id="mensaje"
+              name="mensaje"
+              rows="5"
+              placeholder="Escriba su consulta"
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+      <!-- PIE DE PAGINA -->
+
+      <section id="footer">
+        <footer class="footer">
+          <div class="footer-container">
+            <!-- Logo y nombre de sitio -->
+            <div class="footer-brand">
+              <img
+                src="img/Senati_logo.png"
+                alt="Logo"
+                class="footer-logo"
+              />
+              <p>SENATI</p>
+              <small>© 2025 Todos los derechos reservados</small>
+            </div>
+  
+            <!-- Enlaces legales -->
+            <div class="footer-links">
+              <h4>Legal</h4>
+              <a href="/Documentos/3.politica-privacidad.pdf"
+                >Política de Privacidad</a
+              >
+              <!-- Dentro de href llama a un documento pdf con la poltica-->
+              <a href="#">Términos y Condiciones</a>
+              <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+              <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+            </div>
+  
+            <!-- Redes sociales con íconos personalizados -->
+            <div class="footer-social">
+              <h4>Síguenos</h4>
+              <a href="#"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                  alt="Facebook"
+                  class="social-icon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                  alt="Instagram"
+                  class="social-icon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                  alt="LinkedIn"
+                  class="social-icon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                  alt="Twitter"
+                  class="social-icon"
+              /></a>
+            </div>
+          </div>
+        </footer>
+      </section>
+  </body>
+</html>
